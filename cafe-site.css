@@ -64,7 +64,7 @@ header {
 }
 
 .menu {
-    padding: 80px 0;
+    padding: 40px 0;
     border-bottom: 1px solid #603d19;
 }
 
@@ -76,63 +76,61 @@ h2 {
 }
 
 .line {
+    margin-bottom: 15px;
     text-align: center;
     font-size: 25px;
-    margin-bottom: 30px;
     color: #603d19;
 }
 
 .menu-list {
-    margin: 0 60px;
-}
-
-.item img {
-    margin: 50px 30px 15px 30px;
+    margin-left: 80px;
+    width: 90%;
 }
 
 .item {
     float: left;
-    margin: 0 20px;
+    margin: 0 15px;
+    width: 30%;
     border: 2px solid #603D19;
     border-radius: 3px;
-    padding-bottom: 15px;
+}
+
+.item img {
+    padding: 20px 15px 10px 15px;
 }
 
 .item p {
     font-size: 20px;
-    text-align: center;
     color: #603d19;
-}
-
-.item a {
-    color: #000;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .calendar {
-    padding: 90px 0;
+    padding: 80px 0;
     background-color: mintcream;
     border-bottom: 1px solid #603d19;
 }
 
 .open {
-    margin: 0 465px;
+    text-align: center;
 }
 
 .access {
-    padding: 90px 0;
+    padding: 80px 0;
     border-bottom: 1px solid #603d19;
 }
 
 .map {
-    margin-left: 270px;
+    margin: 30px 0 0 235px;
     padding-right: 50px;
     float: left;
     border-right: 2px solid chocolate;
 }
 
 .google {
-    float: right;
-    margin: 40px 150px 0 0;
+    float: left;
+    margin: 75px 0 0 50px;
 }
 
 h3 {
