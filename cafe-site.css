@@ -9,7 +9,7 @@ form, input, div {
 }
 
 body {
-    font-family: "Osaka-mono", "MS Gothic", "monospace";
+    font-family: 'Courier New', Courier, 'monospace';
 }
 
 li {
@@ -35,89 +35,93 @@ h2 {
     color: #fff;
 }
 
-.line {
-    margin-bottom: 15px;
-    text-align: center;
-    font-size: 25px;
-    color: #fff;
-}
-
-
 header {
-    height: 140px;
+    z-index: 0;
+    height: 630px;
+    background-color: chocolate;
+    text-align: center;
     width: 100%;
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    z-index: 10;
 }
 
-.logo {
-    position: none;
-    z-index: 3;
+header img {
+    width: 72.5%;
+    height: 600px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.list  {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255,255,255,0.7);
+    padding: 50px 0;
+}
+
+.list a {
+    color: darkslategrey;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+    letter-spacing: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+.list a:after {
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    content: '';
+    width: 0;
+    height: 2px;
+    background: darkslategrey;
+    transform: translateX(-50%);
+    transition: .3s;
+}
+
+.list a:hover:after {
+    width: 100%;
+}
+
+li {
+    padding: 8px 0;
 }
 
 .main {
     background-color: chocolate;
 }
-
-.list {
-    margin-left: 250px;
-}
-
-.list a {
-    float: left;
-    text-align: center;
-    margin: 80px 55px;
-    font-size: 24px;
-    color: chocolate;
-}
-
-.list a:hover {
-    border-bottom: 2px solid #000;
-}
-
-.home {
-    height:600px;
-    padding-top: 80px;
-    padding-left: 210px;
-    background-color: chocolate;
-}
-
-.home img {
-    width: 1000px;
-    height: 500px;
-}
-
 .menu {
     background-color: chocolate;
-    padding: 40px 0 100px 0;
+    padding: 70px 0 100px 0;
 }
 
 .menu-list {
-    margin-left: 80px;
+    margin: 0 auto;
     width: 90%;
     padding-top: 30px;
 }
 
 .item {
     float: left;
-    margin: 0 15px;
+    margin: 0 20px;
     width: 30%;
-    border: 2px solid #603D19;
-    border-radius: 3px;
-    background-color: rgba(255,255,255,0.5);
+    text-align: center;
 }
 
 .item img {
-    padding: 30px 20px 20px 25px;
+    width: 90%;
+    position: relative;
+    border-radius: 10px;
 }
 
 .item p {
-    font-size: 20px;
-    color: #603d19;
-    text-align: center;
-    padding-bottom: 20px;
+    position: absolute;
+    top: 950px;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 5px;
+    color: papayawhip;
+    border-bottom: 2px dotted;
 }
 
 .access {
@@ -128,8 +132,8 @@ header {
 
 .access h2 {
     padding-top: 30px;
-    width: 300px;
-    margin-left: 300px;
+    width: 400px;
+    margin: 0 auto;
 }
 
 .access .line {
@@ -172,7 +176,7 @@ h3 {
 .calendar {
     width: 540px;
     float: left;
-    margin-top: 30px;
+    margin-top: 35px;
     padding: 30px 0;
     background-color: rgba(0,0,0,0.5);
 }
@@ -183,7 +187,7 @@ h3 {
 
 
 .contact {
-    margin-top: 360px;
+    margin-top: 400px;
     text-align:center;
     background-color: rgba(0,0,0,0.5);
     height: 500px;
