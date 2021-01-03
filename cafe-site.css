@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
+
+* {
+    box-sizing: border-box;
+}
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p,
@@ -18,10 +23,6 @@ li {
 
 a {
     text-decoration: none;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 header {
@@ -88,7 +89,7 @@ h1 span {
 }
 
 .menu {
-    height: 420px;
+    height: 1250px;
     color: #333;
     background-color: beige;
 }
@@ -165,11 +166,11 @@ h2 {
     padding: 50px 0;
     width: 50%;
     margin: 0 auto;
-    border-bottom: 1px  solid #44546A;
 }
 
 .access h2 {
     text-align: center;
+    color: #333;
 }
 
 .map {
@@ -186,6 +187,7 @@ h2 {
     text-align: left;
     padding-top: 20px;
     font-size: 15px;
+    color: #333;
 }
 
 .open {
@@ -208,12 +210,13 @@ h2 {
 
 .contact {
     padding: 50px 0;
-    width: 50%;
     margin: 0 auto;
+    background-color: beige;
 }
 
 .contact h2 {
     text-align: center;
+    color: #333;
 }
 
 .contact-form {
@@ -223,7 +226,7 @@ h2 {
 
 .contact-form input,textarea {
     flex: auto;
-    width: 50%;
+    width: 25%;
     margin: 0 auto;
     font-size: 16px;
     margin-top: 15px;
@@ -246,7 +249,7 @@ textarea {
 }
 
 .submit:hover {
-    background-color: rgba(200,200,200,0.5);
+    background-color: rgba(255,255,255,0.5);
 }
 
 .submit:active {
@@ -258,6 +261,7 @@ textarea {
 
 footer {
     text-align: center;
+    background-color: beige;
 }
 
 .footer-list img {
