@@ -1,0 +1,99 @@
+/* スマートフォン向け */
+@media screen and (max-width: 768px){
+    
+    ul {
+        margin-left: 0;
+        text-align: left;
+    }
+    
+    li {
+         float: none;
+    }
+    
+    .contents {
+        margin-left: 40px;
+        padding-top: 90px;
+    }
+    
+    .menu {
+        height: 1800px;
+    }
+
+    h2 {
+        letter-spacing: 4px;
+        font-size: 24px;
+    }
+
+    .morning .item {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .morning-menu {
+        float: none;
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .menu p {
+        text-align: center;
+    }
+
+    .lunch .item {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .lunch-menu {
+        float: none;
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .dinner .item {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .dinner-menu {
+        float: none;
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .morning h2,.dinner h2 {
+        padding-right: 0;
+    }
+
+    .lunch h2 {
+        padding-left: 0;
+    }
+    
+    .access {
+        width: 100%;
+    }
+
+    .google p {
+        margin-left: 50px;
+    }
+
+    .calendar {
+        left: 7%;
+    }
+    
+    .contact {
+        width: 100%;
+    }
+
+    .contact-form input,textarea {
+        margin-top: 20px;
+        width: 50%;
+    }
+
+
+}
